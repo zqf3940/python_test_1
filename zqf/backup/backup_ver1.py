@@ -6,7 +6,7 @@ source = [r'"c:\Users\zhongqif\zqf\note"']
 target_dir = r'C:\Users\zhongqif\zqf\test'
 
 target = target_dir + os.sep + \
-         time.strftime('%Y%M%D%H%M%S') + '.ZIP'
+         time.strftime('%Y%m%d%H%M%S') + '.ZIP'
 
 if not os.path.exists(target_dir):
     os.mkdir(target_dir)
