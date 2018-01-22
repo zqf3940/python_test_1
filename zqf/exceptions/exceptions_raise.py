@@ -12,6 +12,7 @@ try:
         raise ShortInputException(len(text), 3)
 
 except EOFError:
+
     print('why did you do an EOF on me?')
 except ShortInputException as ex:
     print(('shortinputexception: the input was {0} long, expected at least {1}').format(ex.length, ex.atleast))
